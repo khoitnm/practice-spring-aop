@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.tnmk.practicejson.pro01simple.testinfra.BaseIntegrationTest;
 
-public class SampleServiceParentTest extends BaseIntegrationTest {
+public class SampleServiceTest extends BaseIntegrationTest {
   @Autowired
   private SampleServiceChild sampleServiceChild;
 
